@@ -1,5 +1,5 @@
 import { readFileSync } from "fs";
-var text = readFileSync("./input.txt").toString("utf-8");
+var text = readFileSync("../input.txt").toString("utf-8");
 var directions = text.split("\n");
 
 let up = [0];

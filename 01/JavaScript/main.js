@@ -1,7 +1,7 @@
 import { promises as fsPromises } from "fs";
 
 fsPromises
-  .readFile("./input.txt", "utf8")
+  .readFile("../input.txt", "utf8")
   .then((data) => {
     let lines = data.toString().split("\n");
     let sums = [];
